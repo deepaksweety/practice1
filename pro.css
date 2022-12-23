@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto&display=swap');
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: midnightblue;
+    color: purple;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background: black;
+    border-radius: 20px;
+}
+.navbar-brand{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: red;
+    padding: 5px 10px 15px;
+}
+#navbarSupportedContent{
+    color: orange;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid transparent;
+    }
+    #home{
+        letter-spacing: 15px;
+        font-family: sans-serif;
+    }
+
+button{
+    background-color: red;
+    width: 5rem;
+    border-radius: 5px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    column-count: 3;
+    column-width: 300px;
+    column-rule-style: dotted;
+}
